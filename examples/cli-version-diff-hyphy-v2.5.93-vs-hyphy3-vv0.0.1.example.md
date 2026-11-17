@@ -30,7 +30,7 @@ The transition from HyPhy 2.5.93 to vv0.0.1 is a foundational architectural rewr
 
 | Artifact | v2.5.93 | vv0.0.1 | Change Type | Producer $rightarrow$ Consumer | Intent/Rationale |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Temp Files | `.tmp` / `.out` files | In-Memory / JSON buffers | **Reduced** | Core $ightarrow$ Report | Reduce disk I/O and reliance on temporary file hygiene. |
+| Temp Files | `.tmp` / `.out` files | In-Memory / JSON buffers | **Reduced** | Core $rightarrow$ Report | Reduce disk I/O and reliance on temporary file hygiene. |
 
 ## 4. Breaking changes & Migration
 
