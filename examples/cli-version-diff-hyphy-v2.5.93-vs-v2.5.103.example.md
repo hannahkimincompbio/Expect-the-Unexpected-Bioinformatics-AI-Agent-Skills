@@ -26,9 +26,9 @@ The transition from v2.5.93 to v2.5.103 is primarily a stability and robustness 
 
 ## 3. Intermediate files — changes vs 2.5.93
 
-| Artifact | v2.5.93 | v2.5.103 | Change Type | Producer $ightarrow$ Consumer | Intent/Rationale |
+| Artifact | v2.5.93 | v2.5.103 | Change Type | Producer :arrow_right: Consumer | Intent/Rationale |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Temporary a-priori | Standard | Stabilized | **Enhanced** | Core $ightarrow$ Optimizer | `TOLERATE_NUMERICAL_ERRORS` prevents fatal aborts on large alignments. |
+| Temporary a-priori | Standard | Stabilized | **Enhanced** | Core :arrow_right: Optimizer | `TOLERATE_NUMERICAL_ERRORS` prevents fatal aborts on large alignments. |
 
 ## 4. Breaking changes & Migration
 
